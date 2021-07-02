@@ -1,5 +1,4 @@
 import vk_api
-
 access_token = ""
 vk_session = vk_api.VkApi(token = access_token)
 vk = vk_session.get_api()
